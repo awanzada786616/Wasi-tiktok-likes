@@ -12,7 +12,7 @@ export default async function handler(req, res) {
     // 2. API Config
     const API_URL = 'https://shadowsmmpanel.com/api/v2';
     const API_KEY = 'c29a88e5308eee982b2a9d147edf7d3f'; // Apni Key Lagayen
-    const SERVICE_ID = '4556';
+    const SERVICE_ID = '4501';
 
     try {
         // 3. Get Data from Frontend
