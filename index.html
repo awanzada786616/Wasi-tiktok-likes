@@ -188,7 +188,7 @@ async function order() {
 
   result.innerHTML = "⏳ Processing order...";
 
-  const res = await fetch("/api/likes", {
+  const res = await fetch("", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ service, link, quantity: qty })
